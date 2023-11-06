@@ -107,3 +107,22 @@ button:hover {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+#dogs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#dogs img {
+  border-radius: 5px;
+  max-width: fit-content;
+  max-height: 200px;
+  border: 2px solid black;
+}
+
+#dogs p {
+  display: flex;
+  justify-content: center;
+}
