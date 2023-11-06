@@ -12,7 +12,14 @@ export function AdoptableDogs(props) {
           <img src={dog.image_url} alt="dog pics" />
           <p>Age: {dog.age} </p>
           <p>Breed: {dog.breed} </p>
-          <button>More Info!</button>
+          <div className="dropdown"> 
+            <button className="dropbtn">More Info!</button>
+            <div className="dropdown-content">
+            <a href="#">More Pictures</a>
+            <a href="#">Bio</a>
+            <a href="#">Medical History</a>
+            </div>
+          </div>
         </div>
       ))}
     </div>
