@@ -63,6 +63,16 @@ function Footer() {
   </footer>
   );
 }
+
+// creates content function
+function Content() {
+  return (
+    <div>
+      <ContactForm />
+      <AdoptableDogs />
+    </div>
+  );
+}
 function App() {
   return (
     <div>
