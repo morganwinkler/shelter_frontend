@@ -15,7 +15,7 @@ function App() {
             Your Name <input type="text" />
           </div>
           <div>
-            Dog's Name <input type="text" />
+            Dog Name <input type="text" />
           </div>
           <div>
             Phone Number <input type="text" />
