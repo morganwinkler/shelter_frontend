@@ -73,9 +73,14 @@ function Content() {
     </div>
   );
 }
+
+// import compenents into app function to be loaded into browser
 function App() {
   return (
     <div>
+      <Header />
+      <Content />
+      <Footer />
     </div>
   );  
 }
