@@ -4,4 +4,24 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: rgb(239, 232, 223);
+}
+
+header {
+  background-color: blanchedalmond;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bungee Shade', sans-serif;
+  font-family: 'Rock Salt', cursive;
+}
+
+header a:hover {
+  color: blueviolet;
+  font-size: x-large;
 }
